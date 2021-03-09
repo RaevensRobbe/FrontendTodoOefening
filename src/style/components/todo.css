@@ -13,6 +13,7 @@
     justify-content: center;
     width: 2rem;
     height: 2rem;
+    flex-shrink: 0;
 
     border: 1px solid var(--g-theme-color);
 
@@ -42,8 +43,11 @@
     font-size: 1.4rem;
     font-weight: 600;
     margin: 0;
+    line-height: 1.1;
 }
 .c-todo-description__category {
-    color:var(--g-neutral-700);
+    color:var(--g-neutral-600);
     margin: 0;
+    font-weight: 500;
+    font-size: 0.9rem;
 }

@@ -9,7 +9,7 @@ const AppHeader = () => {
         <div className="o-row">
             <header className="o-container c-header">
                 <h1 className="c-header__welcome">
-                    Hello, {'Marty'}
+                    Hello, {'Robbe'}
                 </h1>
                 <h2 className="c-header__description">There are {8} todos left</h2>
             </header>
