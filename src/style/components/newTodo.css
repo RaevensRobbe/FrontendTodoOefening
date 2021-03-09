@@ -1,0 +1,52 @@
+.c-add-todo {
+    display : flex;
+}
+
+.c-add-todo-button{
+    all: unset;
+    width: 1.5rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+    
+    padding:0.5rem; /* Eerst de padding op wetten*/
+    margin-top: 0.5rem; /* Vervolgens uitlijning behouden door neg. margins */
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+.c-add-todo-button:hover{
+    background: var(--g-neutral-400);
+}
+
+.c-add-todo-button:focus{
+    background: var(--g-neutral-700);
+}
+
+.c-add-todo-button__icon{
+    stroke: var(--g-theme-color);
+    stroke-width: 2px;
+
+}
+
+.c-add-todo-data{
+    padding-left: 1rem;
+    width: 100%;
+}
+
+.c-add-todo-data__input{
+    all: unset;
+    font-size: 1.4rem;
+    font-weight: 600;
+    width: 100%;
+}
+
+.c-add-todo-data__select{
+    all: unset;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
